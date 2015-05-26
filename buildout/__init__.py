@@ -1,5 +1,11 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # See http://peak.telecommunity.com/DevCenter/setuptools#namespace-packages
+
+""" Dummy file to declare namespace package.
+
+see: http://peak.telecommunity.com/DevCenter/setuptools#namespace-packages
+"""
+
 try:
     __import__('pkg_resources').declare_namespace(__name__)
 except ImportError:
