@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.2.0'
+version = '0.2.1'
 
 long_description = (read('README.rst') + '\n' + read('CONTRIBUTORS.rst'))
 entry_point = 'buildout.requirements:install'
