@@ -3,12 +3,9 @@ import os
 from setuptools import setup, find_packages
 
 
-def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
-
 version = '0.2.2'
 
-long_description = (read('README.rst') + '\n' + read('CONTRIBUTORS.rst'))
+long_description = ""
 entry_point = 'buildout.requirements:install'
 entry_points = {'zc.buildout.extension': ['ext = %s' % entry_point]}
 
